@@ -3,29 +3,25 @@ function ejm1()
     var a =Number(document.getElementById('v1').value);
     if(a >=17 && a <20)
     {
-        var r ="A"
-        document.getElementById("res").value=r;
+        var r ="A";
     }
     else if(a >= 14)
     {
-        var r ="B"
-        document.getElementById("res").value=r;
+        var r ="B";
     }
     else if(a >= 14)
     {
-        var r ="B"
-        document.getElementById("res").value=r;
+        var r ="B";
     }
     else if(a >= 12)
     {
-        var r ="C"
-        document.getElementById("res").value=r;
+        var r ="C";
     }
     else if(a > 0)
     {
-        var r ="D"
-        document.getElementById("res").value=r;
+        var r ="D";
     }
+    document.getElementById("res").value=r;
 }
 
 function ejm2()
