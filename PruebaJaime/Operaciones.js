@@ -1,25 +1,22 @@
 function ejm1()
 {
     var a =Number(document.getElementById('v1').value);
-    if(a >=17 && a <20)
+    var r;
+    if(a >=17)
     {
-        var r ="A";
+        r ="A";
     }
-    else if(a >= 14)
+    else if(a >= 14 && a<17)
     {
-        var r ="B";
+        r ="B";
     }
-    else if(a >= 14)
+    else if(a >= 12 && a<14)
     {
-        var r ="B";
+        r ="C";
     }
-    else if(a >= 12)
+    else if(a < 12)
     {
-        var r ="C";
-    }
-    else if(a > 0)
-    {
-        var r ="D";
+        r ="D";
     }
     document.getElementById("res").value=r;
 }
