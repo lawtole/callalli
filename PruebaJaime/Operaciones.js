@@ -1,7 +1,7 @@
 function ejm1()
 {
     var a =Number(document.getElementById('v1').value);
-    if(20 > a >= 17)
+    if(a >=17 && a <20)
     {
         var r ="A"
         document.getElementById("res").value=r;
