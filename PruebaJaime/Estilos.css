@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+header{
+    padding: 20px;
+}
+form{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+input{
+    width: 75px;
+}
+
